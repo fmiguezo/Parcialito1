@@ -5,11 +5,11 @@ import java.util.Locale;
 public final class FactoryChooser {
     public FactoryTransporte elegirTransporte(String tipo) {
         switch (tipo.toLowerCase()) {
-            case "Auto":
+            case "auto":
                 return new FactoryAuto();
-            case "Subte":
+            case "subte":
                 return new FactorySubte();
-            case "Dron":
+            case "dron":
                 return new FactoryDron();
             default:
                 throw new IllegalArgumentException("Tipo de transporte no válido");
