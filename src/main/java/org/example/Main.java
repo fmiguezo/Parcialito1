@@ -12,6 +12,5 @@ public class Main {
         } catch (MissingSubteServiceException | InvalidTransportException e) {
             System.err.println(e.getMessage());
         }
-
     }
 }
